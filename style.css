@@ -1,0 +1,118 @@
+.container {
+    margin: auto;
+    width: 60%;
+    padding:px;
+}
+.button {
+    margin:auto;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.bar{
+    background-color:darkslategrey;
+    height: 40px;
+}
+
+div.side li a:focus{background-color:red;}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    flex-direction: row;
+}
+
+div.side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    clear:both;
+}
+
+div.top {
+    background-color: blue;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+div.top h1 {
+    margin-top: 100px;
+    margin-left: 500px;
+    color: white;
+    float: left;
+    font-size: 50px;
+}
+
+div.top img {
+    float: left;
+    margin-left: 50px;
+}
+
+div.side li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+div.side li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div.side li a:focus {
+    background-color: chartreuse;
+    color: white;
+}
+
+.resultc {
+    border-style: solid;
+    border-width: medium;
+    width: 45%;
+    padding: 20px;
+    flex: 95%;
+}
+
+div.side li a:active {
+    background-color:chartreuse;
+}
+
+
+
+.flext {
+    display:flex;
+}
+.side{
+    flex: 30%;
+}
+
+.circ {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid #000;
+    
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
